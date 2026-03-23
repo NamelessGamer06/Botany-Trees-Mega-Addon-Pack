@@ -1,0 +1,87 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2026-03-23 13:14:45
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: botanytrees --
+Details:
+	Mod file: /C:/Users/josia/.gradle/caches/modules-2/files-2.1/curse.maven/botany-trees-411357/7581615/a15237bff8e914c50a271ee498d7e2ee55ff017f/botany-trees-411357-7581615.jar
+	Failure message: Mod botanytrees requires prickle 21.1.8 or above, and below 21.2
+		Currently, prickle is not installed
+		
+	Mod version: 21.1.3
+	Mod issues URL: https://github.com/Darkhax-Minecraft/BotanyTrees/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: botanypots --
+Details:
+	Mod file: /C:/Users/josia/.gradle/caches/modules-2/files-2.1/curse.maven/botany-pots-353928/7115287/4f216887a3b95d6abde0f2458a94487523531a1c/botany-pots-353928-7115287.jar
+	Failure message: Mod botanypots requires prickle 21.1 or above, and below 21.2
+		Currently, prickle is not installed
+		
+	Mod version: 21.1.41
+	Mod issues URL: https://github.com/Darkhax-Minecraft/BotanyPots/issues
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.10, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 283899616 bytes (270 MiB) / 612368384 bytes (584 MiB) up to 8510242816 bytes (8116 MiB)
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i9-14900K
+	Identifier: Intel64 Family 6 Model 183 Stepping 1
+	Microarchitecture: Raptor Lake
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 24
+	Graphics card #0 name: NVIDIA GeForce RTX 3080
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 12288.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.9174
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 6.40
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 6.40
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 36910.33
+	Virtual memory used (MiB): 34835.14
+	Swap memory total (MiB): 4458.56
+	Swap memory used (MiB): 171.07
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 1051080.13, total: 1906879.00
+	Space in storage for workdir (MiB): available: 1051080.13, total: 1906879.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.220.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.220.jar                             |NeoForge                      |neoforge                      |21.1.220            |Manifest: NOSIGNATURE

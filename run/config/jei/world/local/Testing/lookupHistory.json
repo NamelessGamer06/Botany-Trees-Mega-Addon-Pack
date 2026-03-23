@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:wheat_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"botanypots:terracotta_botany_pot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"botanypots:terracotta_waxed_botany_pot"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
