@@ -1,25 +1,28 @@
+# Botany Trees Mega Addon Project
+Welcome to the read me for Botany Trees Mega Addon Project!
 
-Installation information
-=======
+Here are the links to the sections of this read me.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+- [Supported Mods](#list-of-mods)
+- [Mods Todo](#mods-todo)
+- [Basic Copyright Info](#basic-copyright-info)
+- [Mod Requests](#mod-requests)
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+## Supported Mods
+Current Supported Version: Neoforge 1.21.1 **Only**!
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+### List of Mods
+- None Right Now :P
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### Mods Todo
+- [Oh the biomes We've Gone](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone)
+- [Regions Unexplored](https://www.curseforge.com/minecraft/mc-mods/regions-unexplored)
+- [Productive Trees](https://www.curseforge.com/minecraft/mc-mods/productivetrees)
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## Basic Copyright Info
+This project is licensed under MIT.
+
+## Mod Requests
+If you would like to see a mod added, please add an issue to GitHub here. 
+
+**MAKE SURE TO PUT "MOD REQUEST" AT THE START OF THE TITLE SO I KNOW WHAT IT IS!**
